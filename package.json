@@ -1,0 +1,28 @@
+{
+  "name": "example-elm-capacitor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "@capacitor/cli": "^1.4.0",
+    "@capacitor/core": "^1.4.0",
+    "@capacitor/ios": "^1.4.0",
+    "@ionic/core": "^5.0.0-beta.5",
+    "create-elm-app": "^4.1.3",
+    "elm": "^0.19.1-3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seanstrom/elm-capacitor-experiment.git"
+  },
+  "author": "seanstrom",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seanstrom/elm-capacitor-experiment/issues"
+  },
+  "homepage": "https://github.com/seanstrom/elm-capacitor-experiment#readme"
+}
