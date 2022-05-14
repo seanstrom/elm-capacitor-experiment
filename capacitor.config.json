@@ -1,8 +1,6 @@
 {
-  "appId": "elm.capacitor",
-  "appName": "elm capacitor",
-  "bundledWebRuntime": false,
-  "npmClient": "npm",
+  "appId": "com.ElmCapExperiment",
+  "appName": "example-elm-capacitor",
   "webDir": "build",
-  "cordova": {}
+  "bundledWebRuntime": false
 }

@@ -1,4 +1,5 @@
-import { Plugins, CameraResultType } from "@capacitor/core"
+import 'regenerator-runtime/runtime'
+import { Camera, CameraResultType } from "@capacitor/camera"
 
 require("./index.scss")
 require('@ionic/core/loader/index.cjs').defineCustomElements(window)
@@ -9,7 +10,7 @@ const app = require("./Main.elm").Elm.Main.init({
 })
 
 app.ports.getPhoto.subscribe(function (data) {
-  Plugins.Camera.getPhoto({
+  Camera.getPhoto({
     quality: 90,
     allowEditing: true,
     resultType: CameraResultType.Uri
