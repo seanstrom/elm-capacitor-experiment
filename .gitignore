@@ -1,4 +1,5 @@
 .DS_Store
-node_modules
-elm-stuff
-build
+node_modules/
+elm-stuff/
+build/
+.direnv/
